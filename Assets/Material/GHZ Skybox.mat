@@ -7,8 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: GHZ Skybox
-  m_Shader: {fileID: 4800000, guid: 01dda1e6fd7b01e4c8a965afe1dd6cfc, type: 3}
-  m_ShaderKeywords: _EMISSION
+  m_Shader: {fileID: 103, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION _SUNDISK_HIGH_QUALITY
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -46,12 +46,21 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
+        name: _Tex
+      second:
+        m_Texture: {fileID: 8900000, guid: 44c72bd7024a03e4da7a497b261a33d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
         name: _UpTex
       second:
         m_Texture: {fileID: 2800000, guid: 2f38dbb1cf3d4f84f96f54da7ed56c73, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - first:
+        name: _AtmosphereThickness
+      second: 1
     - first:
         name: _BumpScale
       second: 1
@@ -101,6 +110,12 @@ Material:
         name: _SrcBlend
       second: 1
     - first:
+        name: _SunDisk
+      second: 2
+    - first:
+        name: _SunSize
+      second: 0.04
+    - first:
         name: _UVSec
       second: 0
     - first:
@@ -113,6 +128,12 @@ Material:
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _GroundColor
+      second: {r: 0.36899996, g: 0.34899998, b: 0.34099993, a: 1}
+    - first:
+        name: _SkyTint
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - first:
         name: _Tint
       second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}

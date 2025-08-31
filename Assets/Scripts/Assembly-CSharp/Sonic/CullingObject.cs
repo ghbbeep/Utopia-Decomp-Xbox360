@@ -6,7 +6,7 @@ namespace Sonic
 	[Serializable]
 	public class CullingObject : MonoBehaviour
 	{
-		public float cullingDistance = 400f;
+		public float cullingDistance = 100f;
 
 		private void Awake()
 		{

@@ -3,9 +3,8 @@ guid: a748dce4406004e4fa2aadf746423329
 timeCreated: 1756251106
 licenseType: Free
 TextureImporter:
-  serializedVersion: 2
-  name:
   fileIDToRecycleName: {}
+  serializedVersion: 2
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -22,24 +21,24 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 6
+  generateCubemap: 0
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 0
+  cubemapConvolutionSteps: 4
   cubemapConvolutionExponent: 0
   seamlessCubemap: 0
-  textureFormat: 12
-  maxTextureSize: 2048
+  textureFormat: -1
+  maxTextureSize: 64
   textureSettings:
     filterMode: 1
     aniso: 1
     mipBias: 0
     wrapMode: 0
-  nPOTScale: 0
+  nPOTScale: 1
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -59,24 +58,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag:
-  output:
-    textureImportInstructions:
-      compressedFormat: 0
-      uncompressedFormat: 0
-      recommendedFormat: 0
-      desiredFormat: 0
-      usageMode: 0
-      colorSpace: 0
-      width: 0
-      height: 0
-      compressionQuality: 0
-    sourceTextureInformation:
-      width: 0
-      height: 0
-      doesTextureContainAlpha: 0
-      sourceWasHDR: 0
-    importInspectorWarnings:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

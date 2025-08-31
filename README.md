@@ -1,6 +1,3 @@
-For those looking for a release, one is there, but it doesn't show up properly because it's labeled as a prerelease.
-
-Original description:
 # SUtopia - Sonic Utopia ReDecompiled
 
 After 10 months...Sonic Utopia has been ReDecompiled with a newer version of AssetRipper!
